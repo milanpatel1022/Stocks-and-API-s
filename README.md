@@ -4,7 +4,7 @@
 •	Calculated metrics summarizing those prices and reported on potentially opportune times to buy or sell the stock, based on one of a few automated buying-and-selling strategies
 •	Allowed me to explore a small part of endless possibilities that web API’s and services present
 
-Project Key Terms/Concepts Used
+Project Key Terms
 
 The opening price, which is the price at which that stock's first trade of the day was made.
 The high price, which was the highest price at which the stock traded during the day, regardless of what time of day it was.
@@ -12,6 +12,18 @@ The low price, which was the lowest price at which the stock traded during the d
 The closing price, which is the price at which that stock's last trade of the day was made.
 The volume, which is the total number of shares that changed hands during the day.
 
+What Will This Program Do?
+
+Generally, it will perform the following tasks:
+1)Wait for the user to specify what analysis they want to run.
+2)Download the relevant information about the stock and its previous prices from a web service.
+3)Calculate the user's chosen indicator for each trading day in that stock.
+4)Determine the days on which the user's chosen signal strategy would have decided to buy or sell the stock.
+5)Print a detailed report describing the outcome of the analysis.
+
+
+
+Understanding the Background Concepts of this Project
 
 Indicators
 
